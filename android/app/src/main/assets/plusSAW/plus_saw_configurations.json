@@ -1,0 +1,19 @@
+{
+  "themeConfig": {
+    "appColor": {
+      "buttonColor": "",
+      "tabBarColor": "",
+      "textPrimaryColor": "",
+      "textSecondaryColor": "",
+      "disableBackgroundColor": "",
+      "defaultColor": "",
+      "inActiveColor": "",
+      "buttonGradientColor": ""
+    },
+    "appFont": {
+      "regular": "",
+      "medium": "",
+      "bold": ""
+    }
+  }
+}
