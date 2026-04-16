@@ -1,12 +1,12 @@
 buildscript {
-    ext.kotlin_version = "1.8.22"
+    ext.kotlin_version = "2.0.0"
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.android.tools.build:gradle:8.10.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -22,10 +22,10 @@ allprojects {
         }
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/plussaw/PlusSaw")
+            url = uri("https://maven.pkg.github.com/plussaw/GluedIn")
             credentials {
                 username = "plussaw"
-                password = "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"
+                password = "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"
             }
         }
     }
